@@ -1,0 +1,104 @@
+<!--Medal Rai-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo_MIT.png" alt="Logo" width="80">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <!-- Main page heading (H1) - This fixes the warning -->
+        <h1>Welcome to My Website</h1>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is a brief introduction about myself and the purpose of this website.</p>
+        </section>
+
+        <img src="images/iauprofilepicture.jpg" alt="Profile Image" width="200">
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I have worked on.</p>
+            
+            <article>
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+                <p><a href="https://www.github.com" target="_blank">View Projects</a></p>
+            </article>
+
+            <article>
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+                <p><a href="https://www.github.com" target="_blank">View Projects</a></p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <dl>
+                <dt>Programming languages</dt>
+                <dd>Python, JavaScript, C++, C</dd>
+
+                <dt>Frameworks</dt>
+                <dd>React, Django, Flask</dd>
+
+                <dt>Databases</dt>
+                <dd>MySQL, PostgreSQL, MongoDB</dd>
+
+                <dt>Tools</dt>
+                <dd>Git, Docker, AWS</dd>
+            </dl>
+            <p>These are the skills I have acquired over time.</p>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <!-- Logos -->
+        <img src="images/google-logo.jpg" alt="Google Logo" width="50">
+        <img src="images/gitlogo.png" alt="Git Logo" width="80">
+        <img src="images/linkedin-logo.jpg" alt="LinkedIn Logo" width="40">
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
